@@ -32,15 +32,8 @@ export default defineConfig(({ mode }) => ({
         }
       }
     },
-    // Minificação otimizada
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: mode === 'production',
-        drop_debugger: true,
-        pure_funcs: mode === 'production' ? ['console.log', 'console.info'] : undefined
-      }
-    },
+    // Minificação com esbuild (padrão do Vite - mais rápido que Terser e não requer dependência extra)
+    minify: mode === 'production' ? 'esbuild' : false,
     // Análise de bundle
     reportCompressedSize: true,
     chunkSizeWarningLimit: 1000
