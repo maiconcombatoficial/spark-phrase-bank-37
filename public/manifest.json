@@ -1,0 +1,55 @@
+{
+  "name": "Spark Phrase Bank",
+  "short_name": "Spark Phrases",
+  "description": "Frases inspiradoras e resumos de livros para motivar seu dia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "lifestyle", "productivity"],
+  "screenshots": [
+    {
+      "src": "/placeholder.svg",
+      "type": "image/svg+xml",
+      "sizes": "1280x720",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Frases Inspiradoras",
+      "short_name": "Frases",
+      "description": "Veja frases inspiradoras",
+      "url": "/frases",
+      "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Resumos de Livros",
+      "short_name": "Resumos",
+      "description": "Leia resumos de livros",
+      "url": "/resumos",
+      "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
+    },
+    {
+      "name": "Notificações",
+      "short_name": "Notificações",
+      "description": "Configure suas notificações",
+      "url": "/notificacoes",
+      "icons": [{ "src": "/favicon.ico", "sizes": "192x192" }]
+    }
+  ]
+}

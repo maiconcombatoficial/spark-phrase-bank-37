@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "O Poder da Criatividade na Inovação",
+    "content": "A criatividade é o motor da inovação. Quando permitimos que nossa mente explore possibilidades sem limitações, descobrimos soluções únicas para problemas complexos. A inteligência criativa combina conhecimento técnico com pensamento divergente, resultando em ideias revolucionárias.",
+    "relatedPhrases": [1, 4],
+    "category": "desenvolvimento",
+    "dateCreated": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "title": "Construindo Hábitos de Sucesso",
+    "content": "O sucesso não acontece da noite para o dia. É o resultado de pequenas ações consistentes realizadas diariamente. Cada pequeno esforço se acumula ao longo do tempo, criando um momentum que nos leva aos nossos objetivos mais ambiciosos.",
+    "relatedPhrases": [2, 3],
+    "category": "produtividade",
+    "dateCreated": "2024-01-16"
+  },
+  {
+    "id": 3,
+    "title": "A Arte da Adaptação",
+    "content": "Em um mundo em constante mudança, a adaptabilidade se tornou uma das habilidades mais valiosas. Aqueles que conseguem se ajustar rapidamente às novas circunstâncias não apenas sobrevivem, mas prosperam em ambientes dinâmicos.",
+    "relatedPhrases": [3, 5],
+    "category": "mindset",
+    "dateCreated": "2024-01-17"
+  },
+  {
+    "id": 4,
+    "title": "Encontrando Propósito no Trabalho",
+    "content": "Quando encontramos significado no que fazemos, o trabalho deixa de ser uma obrigação e se torna uma fonte de realização. A paixão pelo que fazemos eleva nossa performance e nos motiva a buscar sempre a excelência.",
+    "relatedPhrases": [4, 6],
+    "category": "carreira",
+    "dateCreated": "2024-01-18"
+  }
+]

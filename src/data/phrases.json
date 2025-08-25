@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "text": "A criatividade é a inteligência se divertindo.",
+    "author": "Albert Einstein",
+    "book": "Teoria da Relatividade",
+    "category": "criatividade",
+    "tags": ["inspiração", "inovação", "genialidade"],
+    "dateAdded": "2024-01-15"
+  },
+  {
+    "id": 2,
+    "text": "O sucesso é a soma de pequenos esforços repetidos dia após dia.",
+    "author": "Tony Robbins",
+    "book": "O Poder do Hábito",
+    "category": "sucesso",
+    "tags": ["persistência", "dedicação", "disciplina"],
+    "dateAdded": "2024-01-16"
+  },
+  {
+    "id": 3,
+    "text": "Não é o mais forte que sobrevive, nem o mais inteligente, mas o que melhor se adapta às mudanças.",
+    "author": "Charles Darwin",
+    "book": "A Origem das Espécies",
+    "category": "adaptação",
+    "tags": ["evolução", "flexibilidade", "sobrevivência"],
+    "dateAdded": "2024-01-17"
+  },
+  {
+    "id": 4,
+    "text": "A única maneira de fazer um excelente trabalho é amar o que você faz.",
+    "author": "Steve Jobs",
+    "book": "Steve Jobs Biografia",
+    "category": "trabalho",
+    "tags": ["paixão", "excelência", "propósito"],
+    "dateAdded": "2024-01-18"
+  },
+  {
+    "id": 5,
+    "text": "O futuro pertence àqueles que acreditam na beleza de seus sonhos.",
+    "author": "Eleanor Roosevelt",
+    "book": "Você Aprende a Viver Vivendo",
+    "category": "sonhos",
+    "tags": ["futuro", "esperança", "ambição"],
+    "dateAdded": "2024-01-19"
+  },
+  {
+    "id": 6,
+    "text": "Seja você mesmo; todos os outros já foram tomados.",
+    "author": "Oscar Wilde",
+    "book": "O Retrato de Dorian Gray",
+    "category": "autenticidade",
+    "tags": ["identidade", "originalidade", "ser"],
+    "dateAdded": "2024-01-20"
+  },
+  {
+    "id": 7,
+    "text": "A vida é 10% o que acontece com você e 90% como você reage a isso.",
+    "author": "Charles Swindoll",
+    "book": "Atitude: Sua Maior Escolha",
+    "category": "resiliência",
+    "tags": ["atitude", "controle", "mentalidade"],
+    "dateAdded": "2024-01-21"
+  },
+  {
+    "id": 8,
+    "text": "O maior erro que você pode cometer é ficar com medo de cometer um erro.",
+    "author": "Tony Robbins",
+    "book": "Desperte o Gigante Interior",
+    "category": "coragem",
+    "tags": ["erro", "aprendizado", "crescimento"],
+    "dateAdded": "2024-01-22"
+  },
+  {
+    "id": 9,
+    "text": "Não espere por oportunidades extraordinárias. Aproveite as ocasiões comuns e torne-as grandiosas.",
+    "author": "Orison Swett Marden",
+    "book": "Como Ter Sucesso",
+    "category": "oportunidade",
+    "tags": ["ação", "transformação", "grandeza"],
+    "dateAdded": "2024-01-23"
+  },
+  {
+    "id": 10,
+    "text": "A persistência é o caminho do êxito.",
+    "author": "Charles Chaplin",
+    "book": "Minha Autobiografia",
+    "category": "persistência",
+    "tags": ["determinação", "foco", "vitória"],
+    "dateAdded": "2024-01-24"
+  },
+  {
+    "id": 11,
+    "text": "Você nunca é velho demais para estabelecer outro objetivo ou para sonhar um novo sonho.",
+    "author": "C.S. Lewis",
+    "book": "As Crônicas de Nárnia",
+    "category": "renovação",
+    "tags": ["idade", "objetivos", "recomeço"],
+    "dateAdded": "2024-01-25"
+  },
+  {
+    "id": 12,
+    "text": "A educação é a arma mais poderosa que você pode usar para mudar o mundo.",
+    "author": "Nelson Mandela",
+    "book": "Longa Caminhada até a Liberdade",
+    "category": "educação",
+    "tags": ["conhecimento", "mudança", "poder"],
+    "dateAdded": "2024-01-26"
+  },
+  {
+    "id": 13,
+    "text": "A liderança é a capacidade de traduzir visão em realidade.",
+    "author": "Warren Bennis",
+    "book": "Líderes",
+    "category": "liderança",
+    "tags": ["visão", "execução", "transformação"],
+    "dateAdded": "2024-01-27"
+  },
+  {
+    "id": 14,
+    "text": "O líder eficaz vê oportunidades de liderança em todos os lugares.",
+    "author": "John C. Maxwell",
+    "book": "As 21 Leis Irrefutáveis da Liderança",
+    "category": "liderança",
+    "tags": ["oportunidade", "influência", "crescimento"],
+    "dateAdded": "2024-01-28"
+  },
+  {
+    "id": 15,
+    "text": "A resiliência não é sobre resistir à tempestade, mas aprender a dançar na chuva.",
+    "author": "Vivian Greene",
+    "book": "Força Interior",
+    "category": "resiliência",
+    "tags": ["adaptação", "força", "superação"],
+    "dateAdded": "2024-01-29"
+  },
+  {
+    "id": 16,
+    "text": "Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.",
+    "author": "Thomas Edison",
+    "book": "Minha Filosofia da Indústria",
+    "category": "resiliência",
+    "tags": ["persistência", "determinação", "vitória"],
+    "dateAdded": "2024-01-30"
+  },
+  {
+    "id": 17,
+    "text": "A inovação distingue um líder de um seguidor.",
+    "author": "Steve Jobs",
+    "book": "Steve Jobs Biografia",
+    "category": "inovação",
+    "tags": ["liderança", "criatividade", "diferenciação"],
+    "dateAdded": "2024-01-31"
+  },
+  {
+    "id": 18,
+    "text": "O fracasso é apenas a oportunidade de começar de novo, desta vez de forma mais inteligente.",
+    "author": "Henry Ford",
+    "book": "Minha Filosofia da Indústria",
+    "category": "aprendizado",
+    "tags": ["fracasso", "recomeço", "sabedoria"],
+    "dateAdded": "2024-02-01"
+  },
+  {
+    "id": 19,
+    "text": "A verdadeira medida de um homem não é como ele se comporta em momentos de conforto, mas como se mantém em tempos de controvérsia.",
+    "author": "Martin Luther King Jr.",
+    "book": "Por que Não Podemos Esperar",
+    "category": "caráter",
+    "tags": ["integridade", "adversidade", "valores"],
+    "dateAdded": "2024-02-02"
+  },
+  {
+    "id": 20,
+    "text": "O sucesso não é definitivo, o fracasso não é fatal: é a coragem de continuar que conta.",
+    "author": "Winston Churchill",
+    "book": "Memórias da Segunda Guerra Mundial",
+    "category": "coragem",
+    "tags": ["persistência", "determinação", "força"],
+    "dateAdded": "2024-02-03"
+  },
+  {
+    "id": 21,
+    "text": "Se você quer ir rápido, vá sozinho. Se quer ir longe, vá acompanhado.",
+    "author": "Provérbio Africano",
+    "book": "Sabedoria Africana",
+    "category": "colaboração",
+    "tags": ["equipe", "parceria", "crescimento"],
+    "dateAdded": "2024-02-04"
+  },
+  {
+    "id": 22,
+    "text": "A disciplina é a ponte entre objetivos e conquistas.",
+    "author": "Jim Rohn",
+    "book": "As Estações da Vida",
+    "category": "disciplina",
+    "tags": ["objetivos", "conquista", "foco"],
+    "dateAdded": "2024-02-05"
+  },
+  {
+    "id": 23,
+    "text": "Não tenha medo de desistir do bom para buscar o ótimo.",
+    "author": "John D. Rockefeller",
+    "book": "Memórias Aleatórias",
+    "category": "excelência",
+    "tags": ["melhoria", "ambição", "qualidade"],
+    "dateAdded": "2024-02-06"
+  },
+  {
+    "id": 24,
+    "text": "A mudança é a única constante na vida.",
+    "author": "Heráclito",
+    "book": "Fragmentos",
+    "category": "mudança",
+    "tags": ["transformação", "adaptação", "evolução"],
+    "dateAdded": "2024-02-07"
+  },
+  {
+    "id": 25,
+    "text": "O maior investimento que você pode fazer é em si mesmo.",
+    "author": "Warren Buffett",
+    "book": "O Poder do Hábito",
+    "category": "desenvolvimento",
+    "tags": ["autodesenvolvimento", "crescimento", "investimento"],
+    "dateAdded": "2024-02-08"
+  }
+]

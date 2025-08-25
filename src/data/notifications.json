@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "type": "phrase",
+    "title": "💭 Frase Inspiradora",
+    "body": "\"O sucesso é a soma de pequenos esforços repetidos dia após dia.\" - Robert Collier",
+    "category": "motivacao",
+    "data": {
+      "url": "/frases",
+      "phraseId": 1
+    }
+  },
+  {
+    "id": 2,
+    "type": "phrase",
+    "title": "🌟 Reflexão do Dia",
+    "body": "\"A vida é 10% o que acontece conosco e 90% como reagimos a isso.\" - Charles Swindoll",
+    "category": "sabedoria",
+    "data": {
+      "url": "/frases",
+      "phraseId": 5
+    }
+  },
+  {
+    "id": 3,
+    "type": "summary",
+    "title": "📚 Resumo Disponível",
+    "body": "Novo resumo: 'Hábitos Atômicos' - Descubra como pequenas mudanças levam a grandes resultados!",
+    "category": "produtividade",
+    "data": {
+      "url": "/resumos",
+      "bookId": 1
+    }
+  },
+  {
+    "id": 4,
+    "type": "summary",
+    "title": "📖 Insight do Livro",
+    "body": "De 'O Poder do Agora': Viver no presente é a chave para a paz interior e felicidade verdadeira.",
+    "category": "espiritualidade",
+    "data": {
+      "url": "/resumos",
+      "bookId": 2
+    }
+  },
+  {
+    "id": 5,
+    "type": "reminder",
+    "title": "⏰ Momento de Reflexão",
+    "body": "Que tal dedicar 5 minutos para ler uma frase que pode transformar seu dia?",
+    "category": "lembrete",
+    "data": {
+      "url": "/",
+      "action": "reflect"
+    }
+  },
+  {
+    "id": 6,
+    "type": "reminder",
+    "title": "🎯 Lembrete de Crescimento",
+    "body": "Seu desenvolvimento pessoal é importante! Explore novos insights hoje.",
+    "category": "desenvolvimento",
+    "data": {
+      "url": "/resumos",
+      "action": "learn"
+    }
+  },
+  {
+    "id": 7,
+    "type": "phrase",
+    "title": "✨ Motivação Matinal",
+    "body": "\"Grandes coisas nunca vêm da zona de conforto.\" - Neil Strauss",
+    "category": "crescimento",
+    "data": {
+      "url": "/frases",
+      "phraseId": 8
+    }
+  },
+  {
+    "id": 8,
+    "type": "phrase",
+    "title": "🌅 Inspiração da Manhã",
+    "body": "\"O único limite para o nosso amanhã são as dúvidas de hoje.\" - Franklin D. Roosevelt",
+    "category": "superacao", 
+    "data": {
+      "url": "/frases",
+      "phraseId": 12
+    }
+  },
+  {
+    "id": 9,
+    "type": "summary",
+    "title": "🧠 Dica de Produtividade",
+    "body": "Aprenda sobre o método Pomodoro e como ele pode revolucionar seu foco no trabalho!",
+    "category": "produtividade",
+    "data": {
+      "url": "/resumos",
+      "bookId": 3
+    }
+  },
+  {
+    "id": 10,
+    "type": "reminder",
+    "title": "💡 Pausa para Inspiração",
+    "body": "Um lembrete gentil: suas metas estão ao seu alcance. Continue persistindo!",
+    "category": "motivacao",
+    "data": {
+      "url": "/favoritos",
+      "action": "review_goals"
+    }
+  }
+]
