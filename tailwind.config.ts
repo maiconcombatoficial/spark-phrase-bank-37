@@ -81,6 +81,7 @@ export default {
 				'sm': 'var(--shadow-sm)',
 				'md': 'var(--shadow-md)',
 				'lg': 'var(--shadow-lg)',
+				'elegant': 'var(--shadow-elegant)',
 				'glow': 'var(--shadow-glow)',
 				'accent': 'var(--shadow-accent)'
 			},

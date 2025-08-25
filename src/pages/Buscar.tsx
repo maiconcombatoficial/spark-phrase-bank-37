@@ -209,6 +209,13 @@ const Buscar = () => {
     [totalResults, searchTerm]
   );
 
+  const hasActiveFilters = searchTerm || (selectedAuthor && selectedAuthor !== "all") || (selectedBook && selectedBook !== "all") || selectedThemes.length > 0 || selectedChallenges.length > 0 || selectedMoments.length > 0;
+  
+  const handleQuickSearch = useCallback((term: string) => {
+    setSearchTerm(term);
+    screenReaderAnnouncer.announce(`Buscando por: ${term}`, 'polite');
+  }, []);
+
   // Anunciar mudanças nos resultados
   useEffect(() => {
     if (hasActiveFilters && totalResults >= 0) {
@@ -254,7 +261,6 @@ const Buscar = () => {
     }
   };
 
-  const hasActiveFilters = searchTerm || (selectedAuthor && selectedAuthor !== "all") || (selectedBook && selectedBook !== "all") || selectedThemes.length > 0 || selectedChallenges.length > 0 || selectedMoments.length > 0;
 
   return (
     <Layout>

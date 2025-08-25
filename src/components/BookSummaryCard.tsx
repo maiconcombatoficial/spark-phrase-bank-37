@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, BookOpen, Star, ChevronDown, ChevronUp } from "lucide-react";
 import TagWithTooltip from "./TagWithTooltip";
+import { getCardAriaAttributes, useKeyboardNavigation } from "@/utils/accessibility";
 
 interface BookSummary {
   id: number;
@@ -29,8 +30,25 @@ interface BookSummaryCardProps {
 const BookSummaryCard = ({ summary }: BookSummaryCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
+  // Atributos de acessibilidade
+  const cardAriaAttributes = getCardAriaAttributes(
+    summary.title,
+    `Resumo do livro ${summary.title} de ${summary.author}`,
+    summary.id
+  );
+
+  // Navegação por teclado
+  const { handleKeyDown } = useKeyboardNavigation(
+    [summary], 
+    () => setIsExpanded(!isExpanded)
+  );
+
   return (
-    <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-bg border border-border/50">
+    <Card 
+      className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-bg border border-border/50 keyboard-focus-visible"
+      {...cardAriaAttributes}
+      onKeyDown={handleKeyDown}
+    >
       <CardHeader className="pb-3">
         <div className="flex items-start justify-between">
           <div className="flex-1">

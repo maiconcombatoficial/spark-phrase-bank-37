@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import useFavorites from "@/hooks/useFavorites";
 import ShareButton from "@/components/ShareButton";
-import { getCardAriaAttributes, getActionButtonAriaAttributes } from "@/utils/accessibility";
+import { getCardAriaAttributes, getActionButtonAriaAttributes, useKeyboardNavigation } from "@/utils/accessibility";
 
 interface Phrase {
   id: number;
@@ -56,10 +56,19 @@ const PhraseCard = ({ phrase }: PhraseCardProps) => {
     phrase.text.substring(0, 50) + '...'
   );
 
+  // Navegação por teclado
+  const { handleKeyDown } = useKeyboardNavigation(
+    [phrase], 
+    (index) => {
+      if (index === 0) handleFavorite();
+    }
+  );
+
   return (
     <Card 
       className="phrase-card-container group hover:shadow-elegant transition-all duration-300 hover:-translate-y-1 bg-gradient-bg border border-border/50 keyboard-focus-visible"
       {...cardAriaAttributes}
+      onKeyDown={handleKeyDown}
     >
       <CardContent className="p-6">
         <div className="space-y-4">

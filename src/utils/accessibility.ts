@@ -313,3 +313,54 @@ export const generateImageAlt = (context: string, content?: string): string => {
   
   return cleanContent.substring(0, maxLength - 3) + '...';
 };
+
+/**
+ * Gera alt text otimizado para diferentes contextos
+ */
+export const generateContextualImageAlt = (
+  type: 'avatar' | 'illustration' | 'icon' | 'decorative' | 'content',
+  context: string,
+  details?: string
+): string => {
+  const contextMap = {
+    avatar: `Foto de perfil ${details ? `de ${details}` : context}`,
+    illustration: `Ilustração ${details || context}`,
+    icon: `Ícone ${details || context}`,
+    decorative: '', // Decorative images should have empty alt
+    content: details || `Imagem de conteúdo relacionada a ${context}`
+  };
+  
+  return contextMap[type];
+};
+
+/**
+ * Detecta e corrige problemas comuns de acessibilidade
+ */
+export const validateAccessibility = (element: HTMLElement): string[] => {
+  const issues: string[] = [];
+  
+  // Verifica imagens sem alt text
+  const images = element.querySelectorAll('img');
+  images.forEach((img, index) => {
+    if (!img.hasAttribute('alt')) {
+      issues.push(`Imagem ${index + 1} não possui texto alternativo (alt)`);
+    }
+  });
+  
+  // Verifica botões sem labels
+  const buttons = element.querySelectorAll('button');
+  buttons.forEach((btn, index) => {
+    if (!btn.textContent?.trim() && !btn.hasAttribute('aria-label')) {
+      issues.push(`Botão ${index + 1} não possui texto ou aria-label`);
+    }
+  });
+  
+  // Verifica contraste (básico)
+  const style = getComputedStyle(element);
+  if (style.color && style.backgroundColor) {
+    // Implementação básica - em produção usaria uma biblioteca de contraste
+    issues.push('Verificar contraste de cores manualmente');
+  }
+  
+  return issues;
+};

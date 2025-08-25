@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import { addKeyboardFocusIndicators } from "@/utils/accessibility";
+import { runAccessibilityTests, addAccessibilityIndicators } from "@/utils/testAccessibility";
 
 // Lazy loading das páginas para melhor performance
 const Index = lazy(() => import("./pages/Index"));
@@ -43,6 +44,14 @@ const queryClient = new QueryClient({
 
 // Inicializar indicadores de foco para acessibilidade
 addKeyboardFocusIndicators();
+
+// Executar testes de acessibilidade em desenvolvimento
+if (process.env.NODE_ENV === 'development') {
+  setTimeout(() => {
+    runAccessibilityTests();
+    addAccessibilityIndicators();
+  }, 2000);
+}
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
